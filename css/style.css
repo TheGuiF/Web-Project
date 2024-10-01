@@ -1,0 +1,101 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container do cabeçalho */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logotipo */
+
+.logotipo{
+    display: flex;
+    align-items: center;
+}
+
+.logotipo h1 {
+    margin-left: 10px;
+    font-size: 24px;
+    color: #00796b;
+}
+
+.logotipo h1 span{
+    display: block;
+    font-size: 16px;
+    text-align: left;
+}
+
+.logotipo img {
+    vertical-align: middle;
+}
+
+/* Barra de busca */
+.barraDeBusca input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.barraDeBusca img {
+    padding-left: 100px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Carrinho e login */
+.carrinho figure {
+    display: inline-block;
+    text-align: center;
+}
+
+.carrinho img {
+    display: block;
+    margin: 0 auto;
+}
+
+.carrinho figcaption {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #00796b;
+    font-weight: bold;
+}
+
+/* Menu do site */
+nav.menu {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #00796b;
+    padding: 15px;
+}
+
+nav.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    display: inline-block; /* Limita o tamanho do link ao texto */
+    transition: font-size 0.3s ease; /* Suaviza a mudança no tamanho */
+}
+
+nav.menu a:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do texto */
+}
