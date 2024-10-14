@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/assets/healthcare.ico" type="image/x-ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareHealth Shop</title>
+</head>
+<body>
+
+    <div> <!-- Logotipo -->
+        <img src="/assets/healthcare.png" alt="HealthCare Icon" height="50"> 
+        <h1>CareHealth Shop</h1>
+    </div> 
+
+    <h1>Criar Conta</h1>
+
+    <form method="POST" action="">  <!-- Parte para Criar a Conta -->
+        <b>Seu nome</b>
+        <br>
+        <input type="text" name="nome" placeholder="Nome e Sobrenome">
+        <br>
+        <b>Email</b>
+        <br>
+        <input type="email" name="email" placeholder="@gmail.com">
+        <br>
+        <b>Senha</b>
+        <br>
+        <input type="password" name="senha" placeholder="Mínimo de 6 caracteres">
+        <br>
+        <b>Insira a senha novamente</b>
+        <br>
+        <input type="password" name="senha">
+    </form>
+    <div> 
+        <p> <!-- Termos e Condições de Uso --->
+            Ao continuar, você concorda com as <a href="/html/condicoesDeUso.html">Condições de Uso</a> da CareHealth Shop. 
+            Por favor verifique e leia as Condições e os <a href="/html/condicoesDeUso.html">Termos de Acordo</a> para continuar.
+        </p>
+        <input type="checkbox" name="condicoes" value="condi">Eu li e aceito as Condições de Uso
+        <br>
+        <input type="checkbox" name="termos" value="termo">Eu li e aceito os Termos de Acordo
+        <br>
+    </div>
+
+    <input type="submit" value="Continuar">
+
+    <p>
+        Você já tem uma conta? <a href="/html/login.html">Fazer Login</a>
+    </p>
+
+</body>
+</html>
